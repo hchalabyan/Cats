@@ -1,0 +1,20 @@
+.Loader{
+  text-align: center;
+}
+.SideBar{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 25%;
+  justify-content: flex-start;
+  a{
+    text-decoration: none;
+    color: rgba(185, 71, 185, 0.8);
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    &:hover{
+      color: rgba(185, 71, 185, 1);
+      cursor: pointer;
+      font-weight: 700;
+    }
+  }
+}

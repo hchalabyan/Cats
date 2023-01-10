@@ -1,0 +1,11 @@
+.App{
+    width: 50%;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+.ContentWrapper{
+    display: flex;
+    justify-content: center;
+}
